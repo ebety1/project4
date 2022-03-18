@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+</head>
+<style>
+    #outside_box{background-color: crimson; position: absolute;left: 39%;top:30%; transform: translateX(-50%,30%); width: 300px; height: 300px; border-radius: 50%;}
+    #insidebox{background-color: rgb(146, 127, 127);position: absolute;left: 20%;top: 60px; transform: translateX(-50%,30%);width: 180px;height: 180px; text-align: center;border-radius: 50%;}
+</style>
+<body id="body">
+    <main id="outside_box">
+        <main id="insidebox">
+            <article style="margin-top: 28px;font-weight: bold; color: white;" id="hour"><h1>21 : 12</h1></article>
+            <article style="margin-top: 18px;font-weight: bold;color: white;" id="date"><h4>3-3-2022</h4></article>
+            <article  style="margin-top: 30px;font-weight: bold;"><input type="color" id="myColor" onchange="setItem()"></article>
+        </main>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
